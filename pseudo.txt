@@ -1,0 +1,13 @@
+# Import uuid, datetime module
+# Create the init method for attributes
+    - assign id
+    - assign created_at
+    - assign updated_at
+# __str_ method to print info about a dict
+# Create public instance methods
+    - save(self): updates the attr updated_at
+    - to_dict(self): dictionary of key-value 
+        - self.__dict__
+        -  __class__
+        - convert updated_at & created_at to str using ISO format
+        
